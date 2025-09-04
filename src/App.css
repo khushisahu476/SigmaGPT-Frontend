@@ -1,0 +1,20 @@
+* {
+    color: #ececec;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;        /* full screen height */
+  overflow: hidden;     /* stop body from scrolling */
+}
+
+.app {
+    background-color: #212121;
+    display: flex;
+    height: 100vh;        /* full screen height */
+    overflow: hidden;     /* prevent extra scroll */
+}
+
