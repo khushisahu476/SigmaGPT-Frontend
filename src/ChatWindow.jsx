@@ -27,7 +27,7 @@ function ChatWindow() {
         };
 
         try {
-            const response = await fetch("http://13.51.196.121:8080/api/chat", options);
+            const response = await fetch("http://56.228.23.31:8080/api/chat", options);
             const res = await response.json();
             console.log(res);
             setReply(res.reply);
