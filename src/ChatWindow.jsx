@@ -27,7 +27,7 @@ function ChatWindow() {
         };
 
         try {
-            const response = await fetch("https://56.228.23.31:8080/api/chat", options);
+            const response = await fetch("https://sigmagpt-backend-ofw0.onrender.com/api/chat", options);
             const res = await response.json();
             console.log(res);
             setReply(res.reply);
